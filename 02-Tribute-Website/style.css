@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@500&family=Exo+2:ital,wght@1,300&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -23,12 +25,14 @@
 }
 
 .top_section h1 {
+  font-family: 'Baloo Thambi 2', cursive;
   font-size: 50px;
   font-weight: bold;
   color: #1d1e4c;
   text-transform: uppercase;
 }
 .top_section h4 {
+  font-family: 'Baloo Thambi 2', cursive;
   font-size: 30px;
   text-align: end;
 }
@@ -47,11 +51,13 @@ img {
   margin-top: 50px;
 }
 .about_section h2 {
+  font-family: 'Baloo Thambi 2', cursive;
   font-size: 70px;
   font-weight: 400;
   margin-bottom: 20px;
 }
 .about_section p {
+  font-family: 'Baloo Thambi 2', cursive;
   font-size: 20px;
   line-height: 30px;
   letter-spacing: 1.2px;
@@ -67,12 +73,16 @@ img {
   margin-left: 50px;
 }
 .biography_section li {
+  font-family: 'Baloo Thambi 2', cursive;
   margin-bottom: 15px;
 }
 
 footer {
+  border-radius: 20px;
+  padding: 10px;
   margin: 50px 0;
+  background-color: rgb(37 155 46);
 }
 footer p {
-  text-align: end;
+  text-align: center;
 }
