@@ -10,13 +10,13 @@ icon.onclick = function() {
         // music and change the image
         mysound.play();
         icon.src =
-"https://media.geeksforgeeks.org/wp-content/uploads/20210402235545/Pause.png";
+"pause.jpg";
     } else {
 
         // If playing then pause the
         // music and change the image
         mysound.pause();
         icon.src =
-"https://media.geeksforgeeks.org/wp-content/uploads/20210402235520/play.png";
+"play.png";
     }
 }
